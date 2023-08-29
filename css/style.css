@@ -27,6 +27,32 @@ body {
     margin-top: 0px;
 }
 
+.body-block {
+    margin-top: 20px;
+    text-align: center;
+    font-size: 2vw;
+}
+
+.list {
+    text-align: center;
+    font-size: 1.5vw;
+    color: red;
+}
+  
+.column {
+    box-sizing: border-box;
+    float: left;
+    width: 33.33%;
+    padding: 5px;
+}
+
+.row::after {
+    box-sizing: border-box;
+    content: "";
+    clear: both;
+    display: table;
+}
+
 footer {
    margin-top: 5%;
    text-align: center;
