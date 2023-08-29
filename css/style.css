@@ -1,5 +1,5 @@
 body {
-    font-family: 'Brush Script MT', cursive;
+    font-family: 'Courier New', monospace;
     color: darkgreen;
 }
 
@@ -23,7 +23,11 @@ body {
 
 .title-block h6 {
     text-align:center;
-    font-family: 'Courier New', monospace;
     font-size: 2vw;
     margin-top: 0px;
+}
+
+footer {
+   margin-top: 5%;
+   text-align: center;
 }
